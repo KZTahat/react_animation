@@ -3,15 +3,17 @@ import {
   LooopiaLoader,
   JumpSlider,
   StairLoader,
+  CountDownTimer,
 } from "../../Components";
 import "./allLoaders.css";
 
 function Loaders() {
   return (
     <>
-      <SpectrumLoader />
-      <LooopiaLoader />
+      <CountDownTimer />
       <JumpSlider />
+      <LooopiaLoader />
+      <SpectrumLoader />
       <StairLoader />
     </>
   );
