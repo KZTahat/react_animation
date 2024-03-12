@@ -1,11 +1,13 @@
 // Loaders exports
-export { default as SpectrumLoader } from "./Loaders/Spectrum_Loader/Spectrum.jsx";
-export { default as LooopiaLoader } from "./Loaders/Looopia/Looopia.jsx";
+export { default as CountDownTimer } from "./Loaders/CountDownTimer/CountDownTimer.jsx";
 export { default as JumpSlider } from "./Loaders/JumpSlider/JumpSlider.jsx";
+export { default as LooopiaLoader } from "./Loaders/Looopia/Looopia.jsx";
+export { default as SpectrumLoader } from "./Loaders/Spectrum_Loader/Spectrum.jsx";
 export { default as StairLoader } from "./Loaders/StairsLoader/StairLoader.jsx";
 
 // Movements exports
 export { default as ButtonSwap } from "./Movements/ButtonSwap/ButtonSwap.jsx";
+export { default as DragDrop } from "./Movements/DragDrop/DragDrop.tsx";
 export { default as HummerHit } from "./Movements/HummerHit/HummerHit.jsx";
 export { default as NestedLists } from "./Movements/NestedLists/NestedList.jsx";
 
