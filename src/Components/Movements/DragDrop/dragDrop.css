@@ -1,0 +1,60 @@
+.drag-drop-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    min-width: 600px;
+    min-height: 400px;
+    background-color: #68ffff;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.drag-drop-container h2 {
+    margin: 1em;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.drag-drop {
+    width: 90%;
+    height: 270px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.draggable-items {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.4em;
+    box-sizing: border-box;
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #c4c4c4;
+    border-radius: 0.5em;
+    box-shadow: 0px 1px 5px #939393;
+    overflow-y: auto;
+}
+
+.dragged-item {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px #939393;
+    cursor: pointer;
+}
+
+#item-drag-over-true {
+    border: 1px solid yellow;
+}

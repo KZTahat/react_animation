@@ -6,10 +6,10 @@ function App() {
   return (
     <>
       <div className="loaders_container">
-        <ReactComponents />
+        <Movements />
       </div>
       <div className="loaders_container">
-        <Movements />
+        <ReactComponents />
       </div>
       <div className="loaders_container">
         <Loaders />
